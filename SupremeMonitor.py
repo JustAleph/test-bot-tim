@@ -140,3 +140,4 @@ class SupremeMonitor:
 if __name__ == '__main__':
     urllib3.disable_warnings()
     SupremeMonitor(webhook=CONFIG['WEBHOOK'], proxy=CONFIG['PROXY']).monitor()
+    client.run(os.environ["BOT_TOKEN"])
