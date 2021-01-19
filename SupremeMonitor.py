@@ -5,6 +5,7 @@ from datetime import datetime
 import urllib3
 import logging
 import dotenv
+import os
 
 
 logging.basicConfig(filename='suplog.log', filemode='a', format='%(asctime)s - %(name)s - %(message)s', level=logging.DEBUG)
